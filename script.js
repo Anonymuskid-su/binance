@@ -43,13 +43,13 @@ function displayTradeInfo() {
 
       <div class="stats">
         <div class="row">
-          <span>Unrealized PNL (USDT)</span>
-          <span>ROI</span>
+          <span class="roi">Unrealized PNL (USDT)</span>
+          <span >ROI</span>
         </div>
         <div class="numbers">
           <!-- <span>ROI</span> -->
-          <span class="green bold">${unrealizedPNL.toFixed(2)}</span>
-          <span class="green bold">${roi.toFixed(2)}%</span>
+          <span class="green bold">+${unrealizedPNL.toFixed(2)}</span>
+          <span class="green bold">+${roi.toFixed(2)}%</span>
         </div>
       </div>
 
@@ -67,15 +67,15 @@ function displayTradeInfo() {
           <div class=" num-green">${marginRatio.toFixed(2)}%</div>
         </div>
         <div>
-          <div class="entryprice">Entry Price (USDT)</div>
+          <div class="entryprice">Entry Price</div>
           <p>${entryPrice.toFixed(6)}</p>
         </div>
         <div>
-          <span>Mark Price (USDT)</span>
+          <span>Mark Price</span>
           <p>${markPrice.toFixed(6)}</p>
         </div>
         <div class="liquid-price">
-          <span>Liq. Price (USDT)</span>
+          <span>Liq. Price</span>
           <p class="numliq">${liquidationPrice.toFixed(6)}</p>
         </div>
       </div>

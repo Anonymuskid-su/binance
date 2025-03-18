@@ -104,16 +104,18 @@ body {
   margin: 5px 0;
   color: gray;
   font-size: 13px;
+  /* text-decoration: underline dotted gray;
+  text-underline-offset: 5px; */
+}
+.roi {
   text-decoration: underline dotted gray;
   text-underline-offset: 5px;
 }
-
 .numbers {
   display: flex;
   justify-content: space-between;
   font-size: 23px;
   font-weight: 400;
-  /* font-family: roboto; */
 }
 
 .green {
@@ -149,8 +151,8 @@ body {
 }
 
 .entryprice {
-  text-decoration: underline dotted gray;
-  text-underline-offset: 5px;
+  /* text-decoration: underline dotted gray;
+  text-underline-offset: 5px; */
   color: gray;
   font-size: 13px;
 }
