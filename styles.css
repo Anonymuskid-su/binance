@@ -1,6 +1,6 @@
 body {
   background: #1c2431;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
   color: #fcfefe;
   display: flex;
   justify-content: center;
@@ -8,6 +8,7 @@ body {
   height: 90vh;
   width: 100%;
   margin: 0;
+  font-family: helvetica;
   font-weight: 400;
 }
 
@@ -21,16 +22,12 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 .exchange {
   margin-left: 5px;
   margin-right: 10px;
   font-weight: 400;
   font-size: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 .Perpetual {
   margin-left: 0px;
@@ -38,16 +35,12 @@ body {
   color: white;
   font-weight: 400;
   font-size: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 .margin {
   white-space: nowrap;
   margin-right: 15px;
   color: gray;
   font-size: small;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 .warning-red {
@@ -61,14 +54,14 @@ body {
   font-weight: 400;
   font-size: 19px;
   margin-right: 189px;
-  color:  #2ecc71;
+  color: #50c878;
   margin-left: 5px;
 }
 .warning-yellow {
   font-weight: 400;
   font-size: 19px;
   margin-right: 189px;
-  color:  yellow;
+  color: yellow;
   margin-left: 5px;
 }
 
@@ -87,7 +80,7 @@ body {
 }
 
 .badge {
-  background: #2ecc71;
+  background: #50c878;
   color: black;
   padding: 5px 10px;
   font-weight: bold;
@@ -125,7 +118,7 @@ body {
 }
 
 .green {
-  color: #2ecc71;
+  color: #50c878;
 }
 
 .details {
@@ -166,7 +159,7 @@ body {
 .num-green {
   font-size: 13px;
   justify-self: end;
-  color: #2ecc71;
+  color: #50c878;
   margin-top: 10px;
   /* font-weight: bold; */
 }
